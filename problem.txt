@@ -1,7 +1,7 @@
 Supermarket problem
 Some company decided to create a supermarket that sell only three products:
 
- Name         Price
+Name         Price
 
 Wine         $ 500
 BBQ Grill    $ 100

@@ -1,7 +1,7 @@
 from collections import Counter
 
 bulk_discount_wine_price = 450
-bulk_discount_wine_normal_price = 500
+wine_normal_price = 500
 buy_one_get_one_free_beer_price = 25
 
 
@@ -29,7 +29,7 @@ class ShoppingCart:
         if col[item] >= 3:
             bulk_discount = col[item] * bulk_discount_wine_price
         elif col[item]:
-            bulk_discount = col[item] * bulk_discount_wine_normal_price
+            bulk_discount = col[item] * wine_normal_price
 
         return bulk_discount
 
